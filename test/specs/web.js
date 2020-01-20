@@ -14,8 +14,16 @@ const testIds = [
 var title;
 var i = 0;
 var j = 0;
-describe("Adventure - mobile screen size test", function() {
-  it("Get adventureIDs", function() {
+describe("Adventures desktop testing", function() {
+  it("Get IDs", function() {
+    browser.url("https://57hours.com/");
+    $("#siteFooter").scrollIntoView({ behavior: "smooth", block: "end" });
+    browser.pause(3000);
+    $("header").scrollIntoView({ behavior: "smooth", block: "start" });
+    browser.call(
+      async () =>
+        await percySnapshot(browser, "Main-screen", { widths: [1280] })
+    );
     browser.url("https://57hours.com/adventure/");
     $("#main").waitForDisplayed();
     const textBest = $(".facetwp-template");
@@ -30,19 +38,12 @@ describe("Adventure - mobile screen size test", function() {
     $("header").scrollIntoView({ behavior: "smooth", block: "start" });
     browser.call(
       async () =>
-        await percySnapshot(browser, "Adventure-mobile-screen", {
-          widths: [400]
-        })
+        await percySnapshot(browser, "Advenure-screen", { widths: [1280] })
     );
   }),
-    it("Adventure mobile screenshots", function() {
+    it("Adventure desktop screenshots", function() {
       articleBestIds.forEach(postID => {
         const main = $(".site-content");
-        browser.newWindow(
-          "https://57hours.com/adventure/",
-          "WebdriverIO window",
-          "width=420,height=1000,resizable,scrollbars=yes,status=1"
-        );
         $(postID).click();
         main.waitForDisplayed();
         title = browser.getTitle();
@@ -52,7 +53,7 @@ describe("Adventure - mobile screen size test", function() {
         $("header").scrollIntoView({ behavior: "smooth", lock: "start" });
         browser.pause(3000);
         browser.call(
-          async () => await percySnapshot(browser, title, { widths: [400] })
+          async () => await percySnapshot(browser, title, { widths: [1280] })
         );
         browser.url("https://57hours.com/adventure/");
       });
