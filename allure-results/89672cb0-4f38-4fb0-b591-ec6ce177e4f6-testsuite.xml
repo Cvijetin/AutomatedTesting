@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1576840745496' stop='1576842628942'>
+    <name>Search testing</name>
+    <title>Search testing</title>
+    <test-cases>
+        <test-case start='1576840745496' status='passed' stop='1576840777502'>
+            <name>Get bestOfIDs</name>
+            <title>Get bestOfIDs</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1576840777504' status='passed' stop='1576842628940'>
+            <name>BestOfs screenshots</name>
+            <title>BestOfs screenshots</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

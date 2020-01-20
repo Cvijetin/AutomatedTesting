@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577190127842' stop='1577190133394'>
+    <name>Video testing</name>
+    <title>Video testing</title>
+    <test-cases>
+        <test-case start='1577190127849' status='broken' stop='1577190133393'>
+            <name>Video</name>
+            <title>Video</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Wrong parameters applied for switchToParentFrame
+                Usage: switchToParentFrame()
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-parent-frame
+                </message>
+                <stack-trace>Error: Wrong parameters applied for switchToParentFrame
+                Usage: switchToParentFrame()
+                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-parent-frame
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.&lt;anonymous> (/Users/FIVE/webdriver-workshop/test/specs/web.js:36:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577188806701' stop='1577188809808'>
+    <name>Video testing</name>
+    <title>Video testing</title>
+    <test-cases>
+        <test-case start='1577188806701' status='broken' stop='1577188809807'>
+            <name>Video</name>
+            <title>Video</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>$$(...).click is not a function</message>
+                <stack-trace>TypeError: $$(...).click is not a function
+                    at Context.&lt;anonymous> (/Users/FIVE/webdriver-workshop/test/specs/web.js:26:34)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577444198084' stop='1577444214395'>
+    <name>Video testing</name>
+    <title>Video testing</title>
+    <test-cases>
+        <test-case start='1577444198095' status='broken' stop='1577444214393'>
+            <name>Video</name>
+            <title>Video</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "header" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "header" because element wasn't found
+                    at Context.&lt;anonymous> (/Users/FIVE/webdriver-workshop/test/specs/web.js:43:25)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

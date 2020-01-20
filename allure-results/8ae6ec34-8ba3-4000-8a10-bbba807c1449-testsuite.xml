@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577190832086' stop='1577190847290'>
+    <name>Video testing</name>
+    <title>Video testing</title>
+    <test-cases>
+        <test-case start='1577190832087' status='broken' stop='1577190847287'>
+            <name>Video</name>
+            <title>Video</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element ("#player") still not displayed after 10000ms</message>
+                <stack-trace>Error: element ("#player") still not displayed after 10000ms
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.&lt;anonymous> (/Users/FIVE/webdriver-workshop/test/specs/web.js:31:30)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

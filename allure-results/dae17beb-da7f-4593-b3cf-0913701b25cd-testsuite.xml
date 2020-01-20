@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1578997000735' stop='1578997048878'>
+    <name>Search testing</name>
+    <title>Search testing</title>
+    <test-cases>
+        <test-case start='1578997000735' status='passed' stop='1578997025896'>
+            <name>Get bestOfIDs</name>
+            <title>Get bestOfIDs</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1578997025897' status='broken' stop='1578997048877'>
+            <name>BestOfs screenshots</name>
+            <title>BestOfs screenshots</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=79.0.3945.117)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=79.0.3945.117)
+                    at /Users/FIVE/webdriver-workshop/node_modules/@percy/webdriverio/dist/index.js:79:50
+                    at step (/Users/FIVE/webdriver-workshop/node_modules/@percy/webdriverio/dist/index.js:44:23)
+                    at Object.next (/Users/FIVE/webdriver-workshop/node_modules/@percy/webdriverio/dist/index.js:25:53)
+                    at fulfilled (/Users/FIVE/webdriver-workshop/node_modules/@percy/webdriverio/dist/index.js:16:58)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at /Users/FIVE/webdriver-workshop/test/specs/web.js:43:21
+                    at Array.forEach (&lt;anonymous>)
+                    at Context.&lt;anonymous> (/Users/FIVE/webdriver-workshop/test/specs/web.js:32:24)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

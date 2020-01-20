@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577453738031' stop='1577453792897'>
+    <name>Video testing</name>
+    <title>Video testing</title>
+    <test-cases>
+        <test-case start='1577453738031' status='passed' stop='1577453779683'>
+            <name>GetIDs</name>
+            <title>GetIDs</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577453779684' status='broken' stop='1577453792896'>
+            <name>Video</name>
+            <title>Video</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=79.0.3945.88)</message>
+                <stack-trace>element not interactable
+                  (Session info: chrome=79.0.3945.88)
+                    at /Users/FIVE/webdriver-workshop/test/specs/web.js:44:61
+                    at Array.forEach (&lt;anonymous>)
+                    at Context.&lt;anonymous> (/Users/FIVE/webdriver-workshop/test/specs/web.js:23:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

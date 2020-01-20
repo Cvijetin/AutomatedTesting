@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1576507740939' stop='1576507793029'>
+    <name>Search testing</name>
+    <title>Search testing</title>
+    <test-cases>
+        <test-case start='1576507740940' status='passed' stop='1576507766765'>
+            <name>Get bestOfIDs</name>
+            <title>Get bestOfIDs</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1576507766767' status='broken' stop='1576507793028'>
+            <name>BestOfs screenshots</name>
+            <title>BestOfs screenshots</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call scrollIntoView on element with selector ".toc-navigation" because element wasn't found</message>
+                <stack-trace>Error: Can't call scrollIntoView on element with selector ".toc-navigation" because element wasn't found
+                    at /Users/FIVE/webdriver-workshop/test/specs/web.js:43:34
+                    at Array.forEach (&lt;anonymous>)
+                    at Context.&lt;anonymous> (/Users/FIVE/webdriver-workshop/test/specs/web.js:34:24)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

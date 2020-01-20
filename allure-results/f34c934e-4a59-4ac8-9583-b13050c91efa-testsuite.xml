@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577190265313' stop='1577190271667'>
+    <name>Video testing</name>
+    <title>Video testing</title>
+    <test-cases>
+        <test-case start='1577190265313' status='broken' stop='1577190271665'>
+            <name>Video</name>
+            <title>Video</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Wrong parameters applied for switchToFrame
+                Usage: switchToFrame(id)
+                
+                Property Description:
+                  "id" ((number|string|object|null)): one of three possible types: null: this represents the top-level browsing context (i.e., not an iframe), a Number, representing the index of the window object corresponding to a frame, a string representing an element id that can be received using `findElement`.
+                
+                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame
+                </message>
+                <stack-trace>Error: Wrong parameters applied for switchToFrame
+                Usage: switchToFrame(id)
+                Property Description:
+                  "id" ((number|string|object|null)): one of three possible types: null: this represents the top-level browsing context (i.e., not an iframe), a Number, representing the index of the window object corresponding to a frame, a string representing an element id that can be received using `findElement`.
+                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.&lt;anonymous> (/Users/FIVE/webdriver-workshop/test/specs/web.js:36:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

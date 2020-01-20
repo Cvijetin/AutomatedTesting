@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577189995226' stop='1577190003317'>
+    <name>Video testing</name>
+    <title>Video testing</title>
+    <test-cases>
+        <test-case start='1577189995226' status='broken' stop='1577190003316'>
+            <name>Video</name>
+            <title>Video</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;div class="video__button swift-in-viewport">...&lt;/div> is not clickable at point (182, 523). Other element would receive the click: &lt;div class="gallery gallery--add-caption gallery--lightbox swift-in-viewport">...&lt;/div>
+                  (Session info: chrome=79.0.3945.88)</message>
+                <stack-trace>element click intercepted: Element &lt;div class="video__button swift-in-viewport">...&lt;/div> is not clickable at point (182, 523). Other element would receive the click: &lt;div class="gallery gallery--add-caption gallery--lightbox swift-in-viewport">...&lt;/div>
+                  (Session info: chrome=79.0.3945.88)
+                    at /Users/FIVE/webdriver-workshop/test/specs/web.js:28:37
+                    at Array.forEach (&lt;anonymous>)
+                    at Context.&lt;anonymous> (/Users/FIVE/webdriver-workshop/test/specs/web.js:27:34)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

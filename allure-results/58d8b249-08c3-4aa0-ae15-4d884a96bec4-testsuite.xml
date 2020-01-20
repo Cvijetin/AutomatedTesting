@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1578997412576' stop='1578997454586'>
+    <name>Search testing</name>
+    <title>Search testing</title>
+    <test-cases>
+        <test-case start='1578997412579' status='passed' stop='1578997433506'>
+            <name>Get bestOfIDs</name>
+            <title>Get bestOfIDs</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1578997433508' status='broken' stop='1578997454585'>
+            <name>BestOfs screenshots</name>
+            <title>BestOfs screenshots</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=79.0.3945.117)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=79.0.3945.117)
+                    at global.$ (/Users/FIVE/webdriver-workshop/node_modules/@wdio/runner/build/index.js:189:36)
+                    at /Users/FIVE/webdriver-workshop/test/specs/web.js:33:26
+                    at Array.forEach (&lt;anonymous>)
+                    at Context.&lt;anonymous> (/Users/FIVE/webdriver-workshop/test/specs/web.js:32:24)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
