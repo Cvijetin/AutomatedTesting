@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1579598921045' stop='1579598957849'>
+    <name>57hours web testing</name>
+    <title>57hours web testing</title>
+    <test-cases>
+        <test-case start='1579598921045' status='passed' stop='1579598957847'>
+            <name>Get adventureIDs</name>
+            <title>Get adventureIDs</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
